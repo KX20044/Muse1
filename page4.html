@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What's Next? | Muse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="tabs">
+    <a class="tab" href="boilerplate.html">Home</a>
+    <a class="tab" href="page2.html">About</a>
+    <a class="tab" href="page3.html">Founder</a>
+    <a class="tab active" href="page4.html">What's Next?</a>
+  </nav>
+
+   <div class="spotlight" id="spotlight"></div>
+
+    <script src="java.js"></script> 
+
+  <h1>What's Next?</h1>
+  
+  <div class="expand-box">
+  <p>You might've heard that Muse is being considered as a part of the Australian pension proposal for 2092. We're extremely excited about this opportunity to be able to provide all those above 80 the experience of a lifetime! <br><br>
+
+What would this look like? <br><br>
+
+Muse's steady growth and nationwide implementation supports what pensions are meant to: to live life well after retirement. The psychological security of Muse presents it as a strong replacement for a simple money transfer. Muse offers caretaking, reflection and connection. With our proven rates of lower hospitalisation, reduced anxiety and stress for families and delayed cases of dementia and memory loss, we are confident Muse can become everything you need in later life. 
+  </p>
+  </div>
+
+   <h5>FAQs</h5>
+
+   <!-- I used CoPilot to help me make the FAQ section drop-down and also go back up when clicked on it -->
+
+<div class="dropdown-question-box">
+  <button class="dropdown-toggle" onclick="toggleDropdown('dropdownContent1')">What makes Muse different?</button>
+  <div class="dropdown-content" id="dropdownContent1">
+    <p>
+      Muse stands out by using advanced emotion-tracing and neural pattern recognition to create a truly personalised care experience. Unlike other systems, Muse adapts to your unique routines and memories, offering comfort and companionship tailored just for you.<br><br>
+      The technology is designed to feel familiar, safe, and supportive, helping you live independently while staying connected to those you love. <br><br>
+      Muse also offers emotional sustenance:<br><br>
+      - During moments of high stress or during critical moments of injury, such as falls, Muse will mimic vocal tones of a loved one that offers comfort. <br><br>
+      - Display a memory slideshow to reduce loneliness and increase serotonin. <br><br>
+      - Access the client's memory archives to navigate trauma responses to certain events and prepare accordingly.<br><br> 
+      - Automatically call neighbours or an ambulance during accidents  
+
+    </p>
+  </div>
+</div>
+
+<div class="dropdown-question-box">
+  <button class="dropdown-toggle" onclick="toggleDropdown('dropdownContent2')">How does Muse protect my privacy?</button>
+  <div class="dropdown-content" id="dropdownContent2">
+    <p>
+      Muse uses encrypted data storage and never shares your personal archives without your explicit permission. All memory and emotion data is processed locally, ensuring your privacy and security are always protected.
+    </p>
+  </div>
+</div>
+
+<div class="dropdown-question-box">
+  <button class="dropdown-toggle" onclick="toggleDropdown('dropdownContent3')">What does installation look like?</button>
+  <div class="dropdown-content" id="dropdownContent3">
+    <p>
+     If you purchase our home care installation delivery service, our talented team will customise Muse to suit your home. Efficient body and neural-tracking wires through our special CareLinks will be installed throughout your home to ensure Muse can track your daily routine and cater to your specific needs. <br><br> 
+
+     A three-week settling in period will then commence after installation, where Muse will survey to determine areas for improvement and scan your general wellbeing. Following this period, one of our lovely staff members will come by to ensure everything is going smoothly and to conduct a memory archival link to upload to Muse. This process will take approximately 8 hours, or 4 REM cycles. It is completely non-invasive, painless and is a one-off procedure that ensures that Muse can work to the best of its ability. <br><br>
+
+     Within one month of installation, Muse will be your fully-functioning caretaker and companion, learning from biometric responses to memories, including blood pressure, heart rate, muscle relaxation and dopamine jumps.
+    </p>
+  </div>
+</div>
+
+<div class="dropdown-question-box">
+  <button class="dropdown-toggle" onclick="toggleDropdown('dropdownContent4')">What else is coming up?</button>
+  <div class="dropdown-content" id="dropdownContent4">
+    <p> It's a secret...
+    </p>
+  </div>
+</div>
+
+<!-- I used CoPilot for this hacker box pop-up and to make sure the music matched up with its opening. -->
+
+<div id="hackedModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeHackedModal()">&times;</span>
+    <h2 class="sub-heading">BOYCOTT MUSE!!</h2>
+    <p>Don't let them take away our humanity! Where is your data going? Memories are one of the only things the government can't take. Don't let them implement this!<br><br>
+      Janine Falcon is a fraud!<br><br>
+    <span style="color:red;">[ERROR CODE: 0xHACKED]</span>
+    </p>
+  </div>
+</div>
+
+<audio id="hackedAudio" src="sound/hacker.mp3"></audio>
+
+<audio id="ambientAudio" src="sound/inspiring-cinematic-ambient-255033.mp3" loop autoplay></audio>
+
+
+</body>
+</html>
